@@ -1,0 +1,19 @@
+Screen Shot of the Results of my code https://i.stack.imgur.com/vjknr.png when Hover it display the column with content but the background image is not showing in the table. screen shot of the origional header i want to achieve the same results as shown in this image https://i.stack.imgur.com/J5qia.png or in this url https://www.extyl-pro.ru/ for the full width header table. This is my code.
+
+.c1, .c2, .c3, .c4, .c5, .c6, .c7, .c8 {
+    border-left: 0.70px solid black !important;
+    border-right: 0.70px solid black !important;
+    border-bottom: 0.70px solid black !important;
+    border-top: 0.70px solid black !important;
+}
+
+.c1, .c2, .c3, .c4, .c5, .c6, .c7, .c8  {
+    height:300px;
+}
+
+.c1:hover {
+    color: red !important;
+    display: table !important;
+    background-position: left;
+    background-image:url(http://....com/_01.png) !important;
+}
